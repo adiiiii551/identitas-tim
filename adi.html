@@ -4,21 +4,144 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Identitas Adi</title>
-    <link rel="stylesheet" href="style.css">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+            color: white;
+            background:
+                linear-gradient(135deg, #020617, #0f172a, #164e63);
+        }
+
+        .profile {
+            width: 560px;
+            padding: 45px;
+            text-align: center;
+            background: rgba(15, 23, 42, 0.95);
+            border: 2px solid #22d3ee;
+            border-radius: 25px;
+            box-shadow: 0 0 40px rgba(34, 211, 238, 0.3);
+        }
+
+        .icon {
+            font-size: 65px;
+        }
+
+        h1 {
+            margin: 15px 0 8px;
+            font-size: 42px;
+            color: #67e8f9;
+        }
+
+        .tagline {
+            color: #22d3ee;
+            letter-spacing: 4px;
+            font-size: 14px;
+        }
+
+        .info {
+            margin: 30px 0;
+            padding: 20px;
+            text-align: left;
+            background: #1e293b;
+            border: 1px solid #0891b2;
+            border-radius: 15px;
+        }
+
+        .info p {
+            padding: 13px;
+            margin: 0;
+            border-bottom: 1px solid rgba(103, 232, 249, 0.2);
+            line-height: 1.5;
+        }
+
+        .info p:last-child {
+            border-bottom: none;
+        }
+
+        .info b {
+            color: #67e8f9;
+        }
+
+        .quote {
+            color: #bae6fd;
+            font-style: italic;
+            line-height: 1.7;
+            margin: 25px 0;
+        }
+
+        a {
+            display: inline-block;
+            padding: 13px 28px;
+            color: white;
+            background: #0891b2;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: 0.3s;
+        }
+
+        a:hover {
+            background: #06b6d4;
+            box-shadow: 0 0 20px #22d3ee;
+        }
+    </style>
 </head>
+
 <body>
 
     <div class="profile">
+
+        <div class="icon">💻</div>
+
         <h1>IDENTITAS ADI</h1>
 
+        <p class="tagline">
+            CODE • CREATE • INNOVATE
+        </p>
+
         <div class="info">
-            <p><b>Nama:</b> Adi</p>
-            <p><b>Kelas:</b> XI PPLG</p>
-            <p><b>Jurusan:</b> PPLG</p>
-            <p><b>Hobi:</b> Coding</p>
+
+            <p>
+                <b>👤 Nama</b><br>
+                Adi
+            </p>
+
+            <p>
+                <b>🎓 Kelas</b><br>
+                XI PPLG
+            </p>
+
+            <p>
+                <b>💻 Jurusan</b><br>
+                PPLG
+            </p>
+
+            <p>
+                <b>🚀 Hobi</b><br>
+                Coding
+            </p>
+
         </div>
 
-        <a href="index.html">← Kembali ke Beranda</a>
+        <p class="quote">
+            "Terus belajar, terus mencoba,
+            dan jangan takut membuat sesuatu yang baru."
+        </p>
+
+        <a href="index.html">
+            ← Kembali ke Beranda
+        </a>
+
     </div>
 
 </body>
